@@ -77,16 +77,11 @@ I build production-grade backend systems — right now I'm engineering APIs, aut
 | [P2P Chat](https://github.com/Bavithbabu/P2P-Chat) | Node.js, React, Socket.IO, MongoDB | Real-time MERN chat with WebSockets, image sharing, and online presence tracking |
 | [CryptoGuard](https://github.com/Bavithbabu/cryptoguard) | Python, Flask, Scikit-learn | Static analysis tool for C/C++ vulnerability detection using ML + rule-based engine |
 
----
-
-### GitHub Stats
-
 <!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Bavithbabu&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="160" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bavithbabu&layout=compact&theme=github_dark&hide_border=true" height="160" />
 </p> -->
 
----
 
 <p align="center">
   <i>Always open to interesting backend problems and collaborations.</i>
