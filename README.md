@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Bavith Babu 👋</h1>
 
 <p align="center">
-  <b>Backend Engineer · IIIT Kottayam '26 · Interning at C-DAC Bangalore</b>
+  <b>Backend Engineer · IIIT Kottayam '26 · Project Engineer at C-DAC Bangalore</b>
 </p>
 
 <p align="center">
