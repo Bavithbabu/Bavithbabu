@@ -16,19 +16,21 @@
   </a>
 </p>
 
+
 ---
 
 ### About Me
 
-I'm a final-year CS + Cybersecurity student at IIIT Kottayam, currently interning as a Backend Developer at **C-DAC Bangalore**.
+Backend engineer at **C-DAC Bangalore**, working on distributed systems for a real government deployment.
 
-I build production-grade backend systems — right now I'm engineering APIs, auth pipelines, and a Kafka-based AI moderation system for a real deployment at C-DAC. I'm drawn to problems involving distributed systems, secure API design, and scalable architecture.
+Right now I'm extracting the first microservice out of a production monolith — service boundaries, API contracts, a database-per-service schema, and Kafka event integration with Transactional Outbox and idempotent consumers. I'm drawn to problems involving distributed systems, secure API design, and scalable architecture.
 
-- 🔭 &nbsp;Working on **Stone Inscription** — a Spring Boot + MongoDB platform with OAuth2, JWT, RBAC, and Kafka-driven AI content moderation
-- 🛠️ &nbsp;Previously built backends in **Go** (concurrent web crawler) and **Node.js** (real-time chat with WebSockets)
-- 🔐 &nbsp;CS background with a specialization in **Cybersecurity** — active on TryHackMe and CTFs
+- 🔭 &nbsp;**Project Engineer @ C-DAC** — building a Spring Boot + PostgreSQL + Kafka microservice as the first extraction from the C-CARES monolith, with authentication on an isolated trust boundary
+- 🧩 &nbsp;Previously shipped **Stone Inscription** — Spring Boot + MongoDB platform with OAuth2, JWT, RBAC, and a Kafka-driven AI moderation pipeline (p95 ~500ms under 1000 concurrent users)
+- 🛠️ &nbsp;Backends in **Go** (concurrent feed crawler with Gin + goroutines) and **Node.js** (real-time chat over WebSockets)
+- 🔐 &nbsp;CS degree with a specialization in **Cybersecurity** — active on TryHackMe and CTFs
 - 💡 &nbsp;400+ DSA problems solved on LeetCode
-- 📬 &nbsp;Open to **Backend / Backend-heavy Full Stack** roles
+- 📬 &nbsp;Open to **Backend / Golang** roles
 
 ---
 
@@ -36,16 +38,17 @@ I build production-grade backend systems — right now I'm engineering APIs, aut
 
 **Languages**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 **Frameworks & Libraries**
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
@@ -53,16 +56,17 @@ I build production-grade backend systems — right now I'm engineering APIs, aut
 
 **Databases**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 **Tools & Infrastructure**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
