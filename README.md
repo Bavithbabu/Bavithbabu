@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Bavith Babu 👋</h1>
 
 <p align="center">
-  <b>Backend Engineer · IIIT Kottayam '26 · Project Engineer at C-DAC Bangalore</b>
+  <b>Backend Engineer · Go &amp; Java · Project Engineer at C-DAC Bangalore · IIIT Kottayam '26</b>
 </p>
 
 <p align="center">
@@ -16,19 +16,17 @@
   </a>
 </p>
 
-
 ---
 
 ### About Me
 
-Backend engineer at **C-DAC Bangalore**, working on distributed systems for a real government deployment.
+I build backend systems that run in production. I'm drawn to distributed systems, secure API design, and the messy parts of breaking a monolith apart without losing data.
 
-Right now I'm extracting the first microservice out of a production monolith — service boundaries, API contracts, a database-per-service schema, and Kafka event integration with Transactional Outbox and idempotent consumers. I'm drawn to problems involving distributed systems, secure API design, and scalable architecture.
-
-- 🔭 &nbsp;**Project Engineer @ C-DAC** — building a Spring Boot + PostgreSQL + Kafka microservice as the first extraction from the C-CARES monolith, with authentication on an isolated trust boundary
-- 🧩 &nbsp;Previously shipped **Stone Inscription** — Spring Boot + MongoDB platform with OAuth2, JWT, RBAC, and a Kafka-driven AI moderation pipeline (p95 ~500ms under 1000 concurrent users)
+- 🔭 &nbsp;**Project Engineer @ C-DAC Bangalore** — extracting the first microservice out of the C-CARES monolith: service boundaries, API contracts, a database-per-service schema, and Kafka event integration with Transactional Outbox and idempotent consumers
+- 🔐 &nbsp;Built developer auth on an isolated trust boundary — separate JWT signing key, separate database, HttpOnly cookies, approval-gated onboarding
+- 🧩 &nbsp;Shipped **Stone Inscription** — Spring Boot + MongoDB platform with OAuth2, JWT, RBAC, and a Kafka-driven AI moderation pipeline (p95 ~500ms under 1000 concurrent users)
 - 🛠️ &nbsp;Backends in **Go** (concurrent feed crawler with Gin + goroutines) and **Node.js** (real-time chat over WebSockets)
-- 🔐 &nbsp;CS degree with a specialization in **Cybersecurity** — active on TryHackMe and CTFs
+- 🎓 &nbsp;CS degree with a specialization in **Cybersecurity** — active on TryHackMe and CTFs
 - 💡 &nbsp;400+ DSA problems solved on LeetCode
 - 📬 &nbsp;Open to **Backend / Golang** roles
 
@@ -42,7 +40,7 @@ Right now I'm extracting the first microservice out of a production monolith —
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 **Frameworks & Libraries**
@@ -58,7 +56,6 @@ Right now I'm extracting the first microservice out of a production monolith —
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 **Tools & Infrastructure**
@@ -76,16 +73,10 @@ Right now I'm extracting the first microservice out of a production monolith —
 
 | Project | Stack | What it does |
 |---|---|---|
-| [Stone Inscription](https://github.com/CleanCode366/Artifact-Registory-Backend) | Spring Boot, MongoDB, Kafka, OAuth2 | Production API platform with AI-assisted content moderation, RBAC, and JWT auth |
-| [Web Crawler](https://github.com/Bavithbabu/Secure-Web-Crawling-Feed-Aggregation-Service) | Go, Gin, MongoDB, Docker | Concurrent content aggregator with RSS/Atom/HTML parsing and JWT-protected APIs |
-| [P2P Chat](https://github.com/Bavithbabu/P2P-Chat) | Node.js, React, Socket.IO, MongoDB | Real-time MERN chat with WebSockets, image sharing, and online presence tracking |
-| [CryptoGuard](https://github.com/Bavithbabu/cryptoguard) | Python, Flask, Scikit-learn | Static analysis tool for C/C++ vulnerability detection using ML + rule-based engine |
-
-<!-- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Bavithbabu&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bavithbabu&layout=compact&theme=github_dark&hide_border=true" height="160" />
-</p> -->
-
+| [Feed Aggregation Service](https://github.com/Bavithbabu/Secure-Web-Crawling-Feed-Aggregation-Service) | Go, Gin, MongoDB, Docker | Concurrent crawler aggregating RSS/Atom/HTML sources with goroutine-based fetching, deduplicated ingestion, and JWT-protected APIs |
+| [Stone Inscription](https://github.com/CleanCode366/Artifact-Registory-Backend) | Spring Boot, MongoDB, Kafka, OAuth2 | Production API platform with Kafka-driven AI content moderation, RBAC, and OAuth2 + JWT auth |
+| [CryptoGuard](https://github.com/Bavithbabu/cryptoguard) | Python, Flask, Scikit-learn | Static analysis tool detecting C/C++ cryptographic misuse with a hybrid ML + rule-based engine |
+| [Real-time Chat](https://github.com/Bavithbabu/P2P-Chat) | Node.js, React, Socket.IO, MongoDB | MERN chat with WebSocket message delivery, image sharing, and live online-presence tracking |
 
 <p align="center">
   <i>Always open to interesting backend problems and collaborations.</i>
